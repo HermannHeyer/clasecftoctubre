@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg color-fondo-menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo" id="logo-principal"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="centrar-imagen">
+       
+    </div>
+  
+  </header>
+  <main>
+<div class="prueba">
+    Hola Mundo
+</div>
+
+<div class="container mt-3 mb-3">
+    <form class="form-control">
+        <input type="text" id="nombre" class="form-control" name="nombre" placeholder="Ingrese su nombre" />
+        <input type="button" class="btn bg-success mt-3" value="Aceptar" onclick="mensaje()"> 
+    </form>
+</div>
+
+<div class="container mt-3">
+ <div class="row">
+    <div class="col rojo ">Hola</div>
+    <div class="col verde">Mundo</div>
+    <div class="col amarillo">Que facil es css</div>
+ </div>
+
+ <div class="row mt-3">
+    <div class="col"><img  src="img/logo.png"></div>
+    <div class="col"><p>Este es el logo de coca cola</p></div>
+ </div>
+</div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+<script>
+    function mensaje(){
+        let nombre = document.getElementById('nombre').value;
+
+        Swal.fire(
+            'Buen Trabajo!',
+            `Saludos ${nombre}`,
+            'success'
+          )
+      
+   
+    }
+   
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

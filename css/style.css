@@ -1,0 +1,35 @@
+.prueba{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#logo-principal{
+    width: 80px;
+    height: 80px;
+    border-radius:150px;
+}
+
+.centrar-imagen{
+  text-align: center;
+    
+}
+
+.rojo{
+    background-color: red;
+    color: white;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.amarillo{
+    background-color: yellow;
+    color: black;
+}
+
+.color-fondo-menu{
+    background-color: pink;
+}
